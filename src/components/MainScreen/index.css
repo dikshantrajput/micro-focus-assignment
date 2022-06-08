@@ -1,0 +1,5 @@
+.main__container {
+    height: 400px;
+    background: var(--lightGray);
+    padding: 1rem;
+}

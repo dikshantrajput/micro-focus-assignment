@@ -1,0 +1,17 @@
+footer {
+    background: var(--black);
+    color: var(--golden);
+    padding: 0.6rem;
+    text-align: center;
+    height:73.85px;
+}
+
+footer > span {
+    color: var(--watermelon);
+    font-size: 1.3rem;
+    margin: 0 0.1rem;
+}
+
+.page2__link {
+    color: var(--golden);
+}
