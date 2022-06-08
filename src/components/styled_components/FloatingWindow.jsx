@@ -47,7 +47,6 @@ function FloatingWindow({ showFloatingWindow, position, floatingWindowRef, setOf
                 break;
         }
     }, [position]);
-    console.log(showFloatingWindow)
     return (
         <div
             className={`floating__window ${className} ${! showFloatingWindow && "none"}`}

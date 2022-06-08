@@ -15,43 +15,43 @@
     width: max-content;
 }
 
-.intro__body__container{
+.intro__body__container {
     max-width: 600px;
     margin: 1rem auto;
     background: var(--lightGray);
     padding: 0.3rem 1rem;
-    box-shadow: 0px 2px 4px 8px rgba(0, 0, 0,0.1);
+    box-shadow: 0px 2px 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 1.05rem;
 }
 
-.intro__body > p:not(:last-child){
+.intro__body > p:not(:last-child) {
     margin: 1rem 0;
     color: rgb(64, 63, 63);
 }
 
-.intro__body a{
+.intro__body a {
     display: inline-block;
-    color:blue;
+    color: blue;
 }
-.intro__body li{
+.intro__body li {
     margin-bottom: 0.7rem;
     color: rgb(113, 112, 112);
 }
 
-.resume__btn{
+.resume__btn {
     background: var(--golden);
     padding: 0.5rem 1rem;
-    color:var(--black) !important;
+    color: var(--black) !important;
 }
 
-@media screen and (max-width:600px) {
-    .intro__body__container{
+@media screen and (max-width: 600px) {
+    .intro__body__container {
         font-size: 0.8rem;
     }
 }
 
-@media screen and (max-width:480px) {
-    .intro__body__container{
+@media screen and (max-width: 480px) {
+    .intro__body__container {
         font-size: 0.6rem;
     }
 }
